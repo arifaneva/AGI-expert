@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    margin: 3%;
+    color: darkgray;
+}
+.bonjour{
+    float: right;
+    margin-top: -.0rem;
+}
+.navbar{
+    background-color: black;
+    padding: 1rem;
+}
+i{
+    color: gray;
+}
