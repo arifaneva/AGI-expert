@@ -1,0 +1,49 @@
+.avec{
+  color: rgb(0, 0, 130);
+  font-size: 3rem;
+  margin-top: 5rem;
+  list-style: none;
+  margin:1rem;
+  
+
+
+
+    
+}
+.sect{
+    background-color:rgba(0,0,255, 0.2);
+    width: 100%;
+    
+}
+
+p{ margin-left: 1rem;
+    color: rgb(100, 100, 243);
+}
+.text{
+    
+width: 29rem;
+margin-top: -27rem;
+margin-left: 50rem;
+}
+.phrase{
+  color: rgba(0, 0, 255,0.5);
+  font-size: 1rem;
+  margin-left: -.1rem;
+}
+.obje{
+  text-align: center;
+  color: rgb(6, 6, 76);
+  margin-top:5rem;
+}
+.l{
+  color: rgba(0, 0, 255, 0.5);
+  margin: 2rem;
+}
+a{
+  border-radius:10rem ;
+  background: black;
+  padding: 1rem;
+  text-decoration: none;
+  color: white;
+  margin: 18rem;
+}

@@ -1,0 +1,69 @@
+.image{ 
+    background-image: url(./Sans-titre-1-1024x576.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 10rem;
+}
+h1{
+    color: aqua;
+}
+.text{
+    background: rgba(0, 0, 255, 0.5)  ;
+    padding: 4rem;
+width: 50%;
+
+    margin-top: -5rem;
+    margin-left:-8rem ;
+
+}
+.li{
+    display: inline;
+    list-style: none;
+    margin: 3rem;
+
+}
+.il{
+    display: inline;
+    margin:4.5rem ;
+    color: black;
+}
+.lire{
+    display: inline;
+    margin: 10rem;
+    color: white;
+
+    margin: 1REM;
+}
+button{
+    background: black;
+    padding: .5rem;
+    width: 25%;
+    margin: 3rem;
+    margin-top: -2rem;
+}
+.Derniers{
+    color: blue;
+    margin-left: 2rem;
+}
+.derni{
+    border:left;
+    
+    display: block;
+    height: 5%;
+    color: blue;
+}
+li{
+    list-style: none;
+    margin: 1rem;
+    color:black;
+}
+.aide{
+margin-top: -21.4rem;
+margin-left: 4rem;
+
+}
+a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
