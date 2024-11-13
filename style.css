@@ -1,7 +1,9 @@
-*{
-    margin: 0;
-    padding: 0;
-}
+
+    
+    
+
+
+
 
 li{
     list-style: none;
@@ -20,9 +22,7 @@ a{
     background-color: black;
     padding: 1rem;
 }
-i{
-    color: gray;
-}
+
 
 
 
@@ -81,4 +81,46 @@ h1{
 .divers2{
     margin-top: 30%;
     margin-left: -6rem;
+    
+    
+
+}
+
+.footer{
+    display: flex;
+    color: white;
+    padding: 3rem;
+    margin: 2rem;
+    
+   
+    
+}
+footer{
+    background: blue;
+    width: 100%;
+    margin-top: 2rem;
+    
+    
+
+}
+.p{
+    text-align: center;
+    color: white;
+
+}
+.facebook{
+    margin-right: 7rem;
+    margin-top: 5rem;
+}
+.contacter{
+    margin-left: -2rem;
+    margin-right: -2rem;
+    margin-top: -3rem;
+
+}
+.agi{
+    margin-left: 1rem;
+    margin-top: 1REM;
+}
+.h1{ color: white;
 }
