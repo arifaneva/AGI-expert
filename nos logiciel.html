@@ -6,8 +6,12 @@
     <title>Document</title>
     <link rel="stylesheet" href="nos logiciel.css">
     <link rel="stylesheet" href="fontawesome/css/all.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
     <section class="image">
         <div class="text">
 <h1 class="log">Nos logiciel</h1>
@@ -16,7 +20,7 @@
       </div>
      
     </section>
-    <div class="ima">
+    <div class="ima" data-aos="fade-up">
         <ul class="liste">
        <li class="li"> <img src="1.png" alt=""></li>
        <li class="li"> <img src="2.png" alt=""></li>
@@ -25,15 +29,15 @@
       </div>
       <div >
         <ul>
-            <li class="il"><h1 class="il">Bilan Comparé</h1></li>
-            <li class="il"><h1 class="il">Prévisionnel</h1></li>
-            <li class="il"><h1 class="il">Controle RSI</h1></li>
+            <li class="il" data-aos="fade-right"><h1 class="il">Bilan Comparé</h1></li>
+            <li class="il"data-aos="fade-right"><h1 class="il">Prévisionnel</h1></li>
+            <li class="il"data-aos="fade-right"><h1 class="il">Controle RSI</h1></li>
         </ul>
         <div class="lir">
             <ul>
-               <button><li class="lire"><a href="#">LIRE LA SUITE</a></li></button> 
-               <button> <li class="lire"><i class="fas fa-cart-plus"></i><a href="#">AJOUTER AU PANIER</a></li></button> 
-               <button> <li class="lire"><i class="fas fa-cart-plus"></i><a href="#">AJOUTER AU PANIER</a></li></button> 
+               <button><li class="lire" data-aos="fade-right"><a href="#">LIRE LA SUITE</a></li></button> 
+               <button> <li class="lire" data-aos="fade-right"><i class="fas fa-cart-plus"></i><a href="#">AJOUTER AU PANIER</a></li></button> 
+               <button> <li class="lire" data-aos="fade-right"><i class="fas fa-cart-plus"></i><a href="#">AJOUTER AU PANIER</a></li></button> 
             </ul>
         </div>
 <div class="derni">
@@ -53,7 +57,7 @@
    <li> <i style="color: red;"class="fas fa-arrow-right"></i></li> 
   </ul>
 </div>
-<div class="aide">
+<div class="aide"data-aos="fade-right">
     <li><a style="color: black;" href="#">Aide - Bilans Comparé</a></li>
     <li><a style="color: black;" href="#">Vers une nouvelle crise économique?</a></li>
     <li><a style="color: black;" href="#">Installer XIstore</a></li>
@@ -103,7 +107,9 @@
 
 </footer>
 
-      
+      <script>
+            AOS.init();
+          </script>
     
 </body>
 </html>
